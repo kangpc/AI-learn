@@ -1,0 +1,52 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "chn_senti_corp",
+  "dataset_size": 5359575,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/ndiy/ChnSentiCorp@c3a7ff12fdcdf5224474a236069e17d7a6f0cb52/data/train-00000-of-00001.parquet": {
+      "num_bytes": 3558290,
+      "checksum": null
+    },
+    "hf://datasets/ndiy/ChnSentiCorp@c3a7ff12fdcdf5224474a236069e17d7a6f0cb52/data/test-00000-of-00001.parquet": {
+      "num_bytes": 278840,
+      "checksum": null
+    }
+  },
+  "download_size": 3837130,
+  "features": {
+    "label": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 9196705,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 4974408,
+      "num_examples": 19146,
+      "dataset_name": "chn_senti_corp"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 385167,
+      "num_examples": 1200,
+      "dataset_name": "chn_senti_corp"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
